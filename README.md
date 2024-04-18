@@ -15,6 +15,6 @@ si eliberarea heap-ului prin destroy_heap().
 blocurile in functie de tipul listei (sfl = segregated free list si aml = allocated-memory list). In principal, m-au 
 preocupat adaugarea blocurilor, eliminarea lor si lucrul cu adresele asociate fiecaruia.
 
-  Alocatorul de memorie este unul virtual, deoarece doar simuleaza folosirea unor adrese din heap. In realitate, functiile mele de free(), malloc(), read() si write() folosesc la randul lor functiile oficiale care au exact acelasi scop.
+  Alocatorul de memorie este unul virtual, deoarece doar simuleaza folosirea unor adrese din heap. In realitate, functiile mele de free(), malloc(), read() si write() folosesc la randul lor functiile oficiale care au exact aceleasi functionalitati.
   Scopul principal al acestui proiect a fost aprofundarea cunostintelor legate de structuri de date si felul in care poate fi structurata memoria heap.
 
