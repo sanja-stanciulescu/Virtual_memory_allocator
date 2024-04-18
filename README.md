@@ -1,6 +1,6 @@
 ###Ana Stanciulescu, 312CA, 07.04.2024
 
-#####Segregated Free List - Tema 1#####
+#####Segregated Free List#####
 
 ###Descriere###
 
@@ -15,24 +15,6 @@ si eliberarea heap-ului prin destroy_heap().
 blocurile in functie de tipul listei (sfl = segregated free list si aml = allocated-memory list). In principal, m-au 
 preocupat adaugarea blocurilor, eliminarea lor si lucrul cu adresele asociate fiecaruia.
 
-
-###Comentarii asupra temei###
-
-  #Crezi ca ai fi putut realiza o implementare mai buna?
-Atunci cand realizez temele de programare, incerc sa implemetez in cod gandirea propria mea gandire.
-Din acest motiv, codul nu este intotdeauna optim si sunt sigura ca si pentru tema asta este valabil acest lucru.
-Am avut chiar aceasta problema cu prima versiune pe care am scris-o pentru  malloc(). Nu imi treceau ultimele teste
-din cauza implementarii. Din fericre, nu a fost foarte mult de modificat in aceasta situatie.
-
- #Ce ai invatat din realizarea acestei teme?
-Inainte de acesta tema nu auzisem de conceptul de Segregated free lists. Pentru a intelege cerinta a trebuit sa
-imi aloc jumatate de zi sa studiez mai bine despre alocatoarele de memorie si am aflat cum se gestioneaza in realitate heap-ul.
-In acelasi timp, scriind cod, mi-am creat o deprindere mai buna in lucrul cu listele (+cum sa lucrez cu ele fara memory leaks).
-
- #Impresii initiale asupra cerintei
-Initial, tema m-a speriat foarte tare ca nivel de dificultate. Nu credeam ca o sa reusesc vreodata sa o termin si, mai ales,
-nu in timp util.
-Pana semestrul acesta, nu mai lucrasem cu liste si diferenta dintre tema si exercitiile din laboratoare este destul de mare.
-Din fericire pentru mine, am inteles mai bine ce am de facut multumita laboratorului 4.
-Acum ca am tema terminata, sunt mandra de mine ca toata munca mea din ultima saptamana a dat roade.
+  Alocatorul de memorie este unul virtual, deoarece doar simuleaza folosirea unor adrese din heap. In realitate, functiile mele de free(), malloc(), read() si write() folosesc la randul lor functiile oficiale care au exact acelasi scop.
+  Scopul principal al acestui proiect a fost aprofundarea cunostintelor legate de structuri de date si felul in care poate fi structurata memoria heap.
 
