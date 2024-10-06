@@ -2,7 +2,7 @@
 
 #####Segregated Free List#####
 
-###Descriere###
+###Description###
 
   The project consists of a vector of doubly linked lists that simulates a heap with free memory zones, and another doubly linked list that manages the allocated memory zones.
 
