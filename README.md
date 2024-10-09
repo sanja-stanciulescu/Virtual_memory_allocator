@@ -1,8 +1,6 @@
-###Ana Stanciulescu, 312CA, 07.04.2024
+# Virtual memory allocator
 
-#####Segregated Free List#####
-
-###Description###
+### Description
 
   The project consists of a vector of doubly linked lists that simulates a heap with free memory zones, and another doubly linked list that manages the allocated memory zones.
 
@@ -10,7 +8,7 @@ There are 7 main functions that help in creating the heap, managing memory zones
 
 To create these functions, several generic subprograms were necessary, which work with lists and manipulate blocks depending on the type of list (SFL = segregated free list and AML = allocated-memory list). My main focus was on adding blocks, removing them, and handling the addresses associated with each.
 
-The memory allocator is virtual, as it only simulates the use of addresses from the heap. In reality, my free(), malloc(), read(), and write() functions themselves use the official functions that have the same functionalities.
+The memory allocator is virtual, as it only simulates the use of addresses from the heap. In reality, the free(), malloc(), read(), and write() functions themselves use the official functions that have the same functionalities.
 
 The main goal of this project was to deepen knowledge about data structures and how heap memory can be organized.
 
